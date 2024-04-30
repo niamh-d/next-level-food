@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import logoImg from "@/assets/logo.png";
 
@@ -8,7 +9,7 @@ export default function MainHeader() {
   return (
     <header className={styles.header}>
       <Link href="/" className={styles.logo}>
-        <img src={logoImg.src} alt="Next Level Food logo" />
+        <Image src={logoImg} alt="Next Level Food logo" priority />
         Next Level Food
       </Link>
       <nav className={styles.nav}>
