@@ -1,5 +1,6 @@
 import MealsGrid from "@/components/meals/meals-grid";
 import Link from "next/link";
+import styles from "./page.module.css";
 
 export default function MealsPage() {
   return (
